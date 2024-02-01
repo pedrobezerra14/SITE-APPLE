@@ -3,10 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pulseira loop esportiva</title>
-    <link rel="shortcut icon" href="imagens/apple.ico" type="image/x-icon">
+    <title>Pulseira Loop Esportiva</title>
+    <link rel="shortcut icon" href="./imagens/apple.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style.css" />
-    <script src="./script.js" defer></script>
   </head>
   <body>
     <nav>
@@ -54,6 +53,7 @@
       </ul>
     </nav>
     <main>
+      <script src="./script.js" defer></script>
       <section id="produto">
         <div id="opcoes-produto">
           <h1 id="titulo-produto">Pulseira loop esportiva azul-inverno para caixa de 45 mm</h1>
@@ -68,11 +68,11 @@
           <div id="opcoes">
             <h2 id="nome-cor-selecionada">Cor - Azul-inverno</h2>
             <ul id="selecao-cores">
-              <li><input type="radio" name="opcao-cor" id="0-cor" onclick="trocarCor()"><label for="0-cor"><img src="./imagens/opcoes-cores/verde-cipreste.jpeg" alt="" srcset=""></label></li>
-              <li><input type="radio" name="opcao-cor" id="1-cor" onclick="trocarCor()" checked><label for="1-cor"><img src="./imagens/opcoes-cores/azul-inverno.jpeg" alt="" srcset=""></label></li>
-              <li><input type="radio" name="opcao-cor" id="2-cor" onclick="trocarCor()"><label for="2-cor"><img src="./imagens/opcoes-cores/meia-noite.jpeg" alt="" srcset=""></label></li>
-              <li><input type="radio" name="opcao-cor" id="3-cor" onclick="trocarCor()"><label for="3-cor"><img src="./imagens/opcoes-cores/estelar.jpeg" alt="" srcset=""></label></li>
-              <li><input type="radio" name="opcao-cor" id="4-cor" onclick="trocarCor()"><label for="4-cor"><img src="./imagens/opcoes-cores/rosa-claro.jpeg" alt="" srcset=""></label></li>
+              <li><input type="radio" name="opcao-cor" id="0-cor" onclick="atualizarCorSelecionada()"><label for="0-cor"><img src="./imagens/opcoes-cores/verde-cipreste.jpeg" alt="" srcset=""></label></li>
+              <li><input type="radio" name="opcao-cor" id="1-cor" onclick="atualizarCorSelecionada()" checked><label for="1-cor"><img src="./imagens/opcoes-cores/azul-inverno.jpeg" alt="" srcset=""></label></li>
+              <li><input type="radio" name="opcao-cor" id="2-cor" onclick="atualizarCorSelecionada()"><label for="2-cor"><img src="./imagens/opcoes-cores/meia-noite.jpeg" alt="" srcset=""></label></li>
+              <li><input type="radio" name="opcao-cor" id="3-cor" onclick="atualizarCorSelecionada()"><label for="3-cor"><img src="./imagens/opcoes-cores/estelar.jpeg" alt="" srcset=""></label></li>
+              <li><input type="radio" name="opcao-cor" id="4-cor" onclick="atualizarCorSelecionada()"><label for="4-cor"><img src="./imagens/opcoes-cores/rosa-claro.jpeg" alt="" srcset=""></label></li>
             </ul>
             <div id="selo-carbono">
               <img src="./imagens/outros-recursos/neutralidade-c.jpeg" alt="">
@@ -81,9 +81,9 @@
             <div id="tamanho-caixa">
               <h2>Tamanho da caixa</h2>
               <div id="opcoes-tamanho">
-                <input type="radio" name="opcao-tamanho" id="0-tamanho" onclick="trocarTamanho()">
+                <input type="radio" name="opcao-tamanho" id="0-tamanho" onclick="atualizarTamanho()">
                 <label for="0-tamanho">41 mm</label>
-                <input type="radio" name="opcao-tamanho" id="1-tamanho" onclick="trocarTamanho()" checked>
+                <input type="radio" name="opcao-tamanho" id="1-tamanho" onclick="atualizarTamanho()" checked>
                 <label for="1-tamanho">45 mm</label>
               </div>
               <div id='disclaimer'>
@@ -127,9 +127,9 @@
         <div id="visualizacao">
           <img src="./imagens/opcoes-cores/imagens-azul-inverno/imagem-1.jpeg" alt="" id="imagem-visualizacao">
           <ul id="selecionar-imagem">
-            <li><input type="radio" name="opcao-imagem" id="0-imagem" onclick="trocarImagem()"><label for="0-imagem"><img src="./imagens/opcoes-cores/imagens-azul-inverno/imagem-0.jpeg" alt="" srcset="" id="0-imagem-miniatura"></label></li>
-            <li><input type="radio" name="opcao-imagem" id="1-imagem" onclick="trocarImagem()" checked><label for="1-imagem"><img src="./imagens/opcoes-cores/imagens-azul-inverno/imagem-1.jpeg" alt="" srcset="" id="1-imagem-miniatura"></label></li>
-            <li><input type="radio" name="opcao-imagem" id="2-imagem" onclick="trocarImagem()"><label for="2-imagem"><img src="./imagens/opcoes-cores/imagens-azul-inverno/imagem-2.jpeg" alt="" srcset="" id="2-imagem-miniatura"></label></li>
+            <li><input type="radio" name="opcao-imagem" id="0-imagem" onclick="atualizarImagemSelecionada()"><label for="0-imagem"><img src="./imagens/opcoes-cores/imagens-azul-inverno/imagem-0.jpeg" alt="" srcset="" id="0-imagem-miniatura"></label></li>
+            <li><input type="radio" name="opcao-imagem" id="1-imagem" onclick="atualizarImagemSelecionada()" checked><label for="1-imagem"><img src="./imagens/opcoes-cores/imagens-azul-inverno/imagem-1.jpeg" alt="" srcset="" id="1-imagem-miniatura"></label></li>
+            <li><input type="radio" name="opcao-imagem" id="2-imagem" onclick="atualizarImagemSelecionada()"><label for="2-imagem"><img src="./imagens/opcoes-cores/imagens-azul-inverno/imagem-2.jpeg" alt="" srcset="" id="2-imagem-miniatura"></label></li>
           </ul>
         </div>
       </section>
