@@ -19,6 +19,15 @@
 ### 🔹Versão Azul-Inverno 41mm
 <img src="./imagens/prints/ai-41.png">
 
+### 🟢Versão Verde-Cipreste 45mm
+<img src="./imagens/prints/vc.png">
+
+### ⚪️Versão Estelar 45mm
+<img src="./imagens/prints/es.png">
+
+### ⚫️Versão Meia-Noite 45mm
+<img src="./imagens/prints/mn.png">
+
 ### 🎀Versão Rosa-Claro 45mm
 <img src="./imagens/prints/rc-45.png">
 
