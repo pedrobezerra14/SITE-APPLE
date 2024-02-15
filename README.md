@@ -1,4 +1,4 @@
-# PROJETO APPLE
+<img src="./imagens/apple.ico"/><h1> PROJETO APPLE <h1/>
 - Projeto criado com inspiração na página da Pulseira Loop Esportiva
 
 ## 📝Finalidade
