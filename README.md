@@ -83,6 +83,6 @@
 4. [Visual Studio Code](https://code.visualstudio.com)<hr>
 5. [Figma](https://www.figma.com/)<hr>
 
-## 🔗Link para acessar o projeto no GitHub
+# 🔗Link para acessar o projeto no GitHub
 
-[Link para acessar o site](https://pedrobezerra14.github.io/SITE-APPLE/)
+## [Link para acessar o deploy feito no GitHub](https://pedrobezerra14.github.io/SITE-APPLE/)
